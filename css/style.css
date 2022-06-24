@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+
+.nav_menu,
+.nav_search{
+    color: #eee;
+    padding: 15px;
+}
+
+.logo img{
+    height: 4vh;
+    margin: 10px;
+}
+
+.navegacion{
+    margin-left: 5%;
+}
+
+.usuario{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+
+.inicial{
+    border: 3px solid rgb(167, 6, 207);
+    /*border-image: linear-gradient(to right, #ba1dc9 0%, #d82ee7 100%) 1;*/
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 6px;
+    font-weight: bold;
+
+}
+
+.nombre{
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.tituloPelicula{
+    position: absolute;
+    bottom: 40%;
+    left: 5%;
+    font-size: 40px;
+}
+
+.masInfo{
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    
+    background: linear-gradient(90deg, rgb(57, 9, 148) 7%, rgb(130, 47, 224) 59%, rgb(138, 92, 212) 100%);
+    padding: 10px 30px;
+    border-radius: 60px;
+}
+
+.masInfo:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(130, 47, 224) 7%,  rgb(57, 9, 148) 59%);
+}
+
+#tipo{
+    position: absolute;
+    bottom: 35%;
+    left: 5%;
+}
+
+.descripcion{
+    position: absolute;
+    bottom: 32%;
+    left: 5%;
+}
+
+.recomendacion{
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+}
+
+.segundaParte{
+    background: linear-gradient(149deg, rgba(1,1,17,1) 14%, rgba(33,3,156,1) 57%, rgba(145,2,240,1) 100%);
+    box-shadow:0 -40px 50px #000000;
+    overflow-x: hidden;
+}
+
+.continuarViendo,
+.soloParati,
+.universo{
+    margin: 0 5%;
+}
+
+
+
+.listado{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.elemento{
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.elemento:hover{
+    cursor: pointer;
+}
+
+.cover200{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.cover400{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+}
+
+.cover4002{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+
+.cover200:hover,
+.cover400:hover,
+.cover4002:hover{
+    box-shadow: inset 0px -50px 80px -20px #000;
+}
